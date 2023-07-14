@@ -13,26 +13,26 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
-    if 0 < bikash <= 10:
-        bar = "bgt════════"
-    elif 10 < bikash < 20:
-        bar = "═bgt═══════"
-    elif 20 <= bikash < 30:
-        bar = "══bgt══════"
-    elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
-    elif 40 <= bikash < 50:
-        bar = "════bgt════"
-    elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
-    elif 60 <= bikash < 70:
-        bar = "══════bgt══"
-    elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
-    elif 80 <= bikash < 95:
-        bar = "════════bgt"
+    if 0 < RoyalHero <= 10:
+        bar = "Hero════════"
+    elif 10 < RoyalHero < 20:
+        bar = "═Hero═══════"
+    elif 20 <= RoyalHero < 30:
+        bar = "══Hero══════"
+    elif 30 <= RoyalHero < 40:
+        bar = "═══Hero═════"
+    elif 40 <= RoyalHero < 50:
+        bar = "════Hero════"
+    elif 50 <= RoyalHero < 60:
+        bar = "═════Hero═══"
+    elif 60 <= RoyalHero < 70:
+        bar = "══════Hero══"
+    elif 70 <= RoyalHero < 80:
+        bar = "═══════Hero═"
+    elif 80 <= RoyalHero < 95:
+        bar = "════════Hero"
     else:
-        bar = "════════BGT"
+        bar = "════════Hero"
 
     buttons = [
         [
