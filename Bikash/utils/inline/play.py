@@ -2,8 +2,8 @@ import math
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from Bikash import config
-from Bikash.utils.formatters import time_to_seconds
+from IamHero import config
+from IamHero.utils.formatters import time_to_seconds
 
 
 ## After Edits with Timer Bar
@@ -13,26 +13,26 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
-    if 0 < bikash <= 10:
-        bar = "bgt════════"
-    elif 10 < bikash < 20:
-        bar = "═bgt═══════"
-    elif 20 <= bikash < 30:
-        bar = "══bgt══════"
-    elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
-    elif 40 <= bikash < 50:
-        bar = "════bgt════"
-    elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
-    elif 60 <= bikash < 70:
-        bar = "══════bgt══"
-    elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
-    elif 80 <= bikash < 95:
-        bar = "════════bgt"
+    if 0 < iamHero <= 10:
+        bar = "Hero════════"
+    elif 10 < iamHero < 20:
+        bar = "═Hero═══════"
+    elif 20 <= iamHero < 30:
+        bar = "══Hero══════"
+    elif 30 <= iamHero < 40:
+        bar = "═══Hero═════"
+    elif 40 <= iamHero < 50:
+        bar = "════Hero════"
+    elif 50 <= iamHero < 60:
+        bar = "═════Hero═══"
+    elif 60 <= iamHero < 70:
+        bar = "══════Hero══"
+    elif 70 <= iamHero < 80:
+        bar = "═══════Hero═"
+    elif 80 <= iamHero < 95:
+        bar = "════════Hero"
     else:
-        bar = "════════BGT"
+        bar = "════════Hero"
 
     buttons = [
         [
@@ -73,7 +73,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="❤️ Owner ❤️", url=f"https://t.me/iamcuteher0"
+            )
+        ],
+        [
+            [           
+            InlineKeyboardButton(
+                text="❤️ BROTHER ❤️", url=f"https://t.me/royal_king302 salman_malik7860"
             )
         ],
         [
