@@ -70,10 +70,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
-        ], OWNER
-        
-        
-       HERO [
+        ],
+         [
+            InlineKeyboardButton(
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
             )
@@ -88,25 +94,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "Hero════════"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "═Hero═══════"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "══Hero══════"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "═══Hero═════"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "════Hero════"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "═════Hero═══"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "══════Hero══"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "═══════Hero═"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "════════Hero"
     else:
-        bar = "════════BGT"
+        bar = "════════Hero"
 
     buttons = [
         [
@@ -145,9 +151,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
             )
         ],
         [
@@ -169,9 +178,12 @@ def stream_markup(_, videoid, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
             )
         ],
         [
@@ -215,9 +227,12 @@ def telegram_markup(_, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
             )
         ],
         [
@@ -387,9 +402,12 @@ def queue_markup(_, videoid, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
             )
         ],
         [
@@ -433,9 +451,12 @@ def telegram_markup(_, chat_id):
                 text="💖 𝐆𝐫𝐨𝐮𝐩 💖", url=config.SUPPORT_GROUP
             )
         ],
-        [           
+        [
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="🧸 Brother 🧸", url=f"t.me/royal_king365"
+            ),
+            InlineKeyboardButton(
+                text="✨️ owner ✨️", url=f"t.me/iamCuteHero"
             )
         ],
         [
